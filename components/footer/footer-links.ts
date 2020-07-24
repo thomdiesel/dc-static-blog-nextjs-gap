@@ -1,47 +1,46 @@
 const footerLinks = [
   {
-    title: 'For Developers',
+    title: 'About Us',
     links: [
       {
-        text: 'GitHub',
+        text: 'Our Story',
         href: '//github.com/amplience/'
       },
       {
-        text: 'Stack Overflow',
+        text: 'Sustainability',
         href: '//stackoverflow.com/questions/tagged/amplience-dynamic-content'
       },
       {
-        text: 'Dynamic Content docs',
+        text: 'Fitness Professionals',
         href: '//docs.amplience.net/integration/developergettingstarted.html'
       },
       {
-        text: 'Content Hub docs',
+        text: 'Work at Athleta',
         href: '//docs.amplience.net/contenthub.html'
       },
       {
-        text: 'API reference',
+        text: 'Gap Inc. Sustainability',
         href: '//docs.amplience.net/integration/reference.html'
       }
     ]
   },
   {
-    title: 'Company',
+    title: 'Find Us',
     links: [
       {
-        text: 'Website',
+        text: 'Find a Store',
         href: '//amplience.com'
       },
       {
-        text: 'Careers',
+        text: 'Request a Catalog',
         href: '//amplience.com/careers'
       },
       {
-        text: 'Privacy policy',
+        text: 'Email Sign-Up',
         href: '//amplience.com/privacy-cookie-policy'
       },
       {
-        text: 'What`s new',
-        href: '//docs.amplience.net/releasenotes/readme.html'
+        text: '877-328-4538'
       }
     ]
   }

@@ -14,7 +14,7 @@ const Header = ({ title }: { title: string }): ReactElement => {
       <section>
         <header>
           <StaticLink href={headerLink}>
-            <Logo darkMode={true} />
+            <Logo darkMode={false} />
           </StaticLink>
           <h1>{title}</h1>
         </header>
@@ -25,7 +25,7 @@ const Header = ({ title }: { title: string }): ReactElement => {
           display: flex;
           flex: 1 0 auto;
           justify-content: center;
-          background-color: ${theme.colors.mirage};
+          background-color: ${theme.colors.white};
         }
         header {
           display: flex;
@@ -38,7 +38,7 @@ const Header = ({ title }: { title: string }): ReactElement => {
           font-size: ${theme.fonts.size.large};
           font-weight: ${theme.fonts.weight.medium};
           text-transform: uppercase;
-          color: white;
+          color: black;
           border-left: 1px solid ${theme.colors.dustyGray};
           margin-left: 18px;
           padding-left: 18px;

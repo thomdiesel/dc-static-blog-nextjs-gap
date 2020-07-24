@@ -14,6 +14,11 @@
         "label": "Visualization",
         "templatedUri": "https://blog.example.com/visualization.html?vse={{vse.domain}}&content={{content.sys.id}}",
         "default": true
+      },
+      {
+        "label": "JSON",
+        "templatedUri": "https://dev-chris.s3-eu-west-1.amazonaws.com/viz/index.html?vse={{vse.domain}}&id={{content.sys.id}}&depth=all&format=inlined",
+        "default": false
       }
     ],
     "cards": [
