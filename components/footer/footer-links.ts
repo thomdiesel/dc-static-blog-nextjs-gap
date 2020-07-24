@@ -40,7 +40,8 @@ const footerLinks = [
         href: '//amplience.com/privacy-cookie-policy'
       },
       {
-        text: '877-328-4538'
+        text: '877-328-4538',
+        href: '//amplience.com/privacy-cookie-policy'
       }
     ]
   }

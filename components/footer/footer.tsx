@@ -24,7 +24,7 @@ const Footer = (): ReactElement => {
                 </ExternalLink>
               </div>
             </div>
-            <div className="copyright">&copy; Copyright Athleta {currentYear}</div>
+            <div className="copyright">&copy; Copyright Amplience {currentYear}</div>
           </div>
           <div className="footer-links">{footerLinkSections}</div>
         </section>
