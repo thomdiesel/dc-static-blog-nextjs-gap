@@ -1,7 +1,11 @@
 import React, { ReactElement } from 'react';
 import theme from '../../../common/styles/default/theme';
 
-const HeroBannerHeading = ({ heading }: { heading: string }): ReactElement => {
+interface HeroBannerHeadingProps {
+  heading: string;
+}
+
+const HeroBannerHeading = ({ heading }: HeroBannerHeadingProps): ReactElement => {
   return (
     <>
       <h1>{heading}</h1>

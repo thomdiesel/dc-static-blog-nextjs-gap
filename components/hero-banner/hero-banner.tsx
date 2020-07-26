@@ -21,12 +21,12 @@ const HeroBanner = ({ children, heading }: HeroBannerProps): ReactElement => {
           justify-content: center;
           flex-direction: column;
           text-align: center;
-          background-color: ${theme.colors.mirage95};
+          background-color: ${theme.colors.white};
           padding: 40px 20px 20px 20px;
         }
 
         section :global(h1) {
-          color: white;
+          color: black;
           font-weight: ${theme.fonts.weight.light};
           padding-bottom: 40px;
         }
