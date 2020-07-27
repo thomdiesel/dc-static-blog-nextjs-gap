@@ -20,7 +20,7 @@ const ClearRefinements = ({ items, refine }: CurrentRefinementsProvided): ReactE
     <style jsx>{`
       button[disabled] {
         background-color: ${theme.colors.mirage95};
-        color: #2d3640;
+        color: white;
       }
 
       button {

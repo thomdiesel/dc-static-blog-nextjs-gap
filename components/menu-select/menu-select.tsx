@@ -45,7 +45,7 @@ const MenuSelect = ({
           margin: 6px 0;
           margin-right: 20px;
           width: 200px;
-          background-color: #2d3640;
+          background-color: white;
           border: 1px solid #4e555e;
           color: #999;
           padding: 5px;
