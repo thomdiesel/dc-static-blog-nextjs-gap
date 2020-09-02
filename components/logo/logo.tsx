@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import theme from '../../common/styles/default/theme';
 
 const Logo = ({ darkMode }: { darkMode?: boolean }): ReactElement => {
-  const logoSrcName = darkMode ? 'athletalogo' : 'athletalogo';
+  const logoSrcName = darkMode ? 'logo' : 'logo';
   return (
     <>
       <img
